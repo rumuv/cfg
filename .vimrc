@@ -6,6 +6,5 @@ set shiftwidth=2
 set ruler
 set number
 set expandtab
-set relativenumber
 set hlsearch
 set incsearch
