@@ -9,6 +9,7 @@ ln -sf $PWD/.tmux.conf $HOME/.tmux.conf
 
 if [ "$default_shell" == "zsh" ]; then
   ln -sf $PWD/.zshrc $HOME/.zshrc
+  ln -sf $PWD/.zprofile $HOME/.zprofile
 elif [ "$default_shell" == "bash" ]; then
   ln -sf $PWD/.bashrc $HOME/.bashrc
 else
